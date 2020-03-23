@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <meta charset="UTF-8">
+    <title>武汉市患者求助地图</title>
+            <script type="text/javascript" src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+        <script type="text/javascript" src="https://assets.pyecharts.org/assets/maps/hu2_bei3_wu3_han4.js"></script>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </head>
+    
+<body>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <p class="lead">【免责声明】本网页所有的数据均来自新浪微博的肺炎患者求助超话，旨在为相关部门提供求助信息的可视化展示。本网站不负责验证采集数据的真实性，仅供参考。虽力量绵薄，但愿倾之与共，武汉加油！</p>
+        </div>
+    </div>
+    <div class="container">
+    <div id="2c773f7d234c48ff921d2c9729ad83dc" class="chart-container" style="width:600px;height:600px;margin:auto;top:30px"></div>
+    <script>
+        var chart_2c773f7d234c48ff921d2c9729ad83dc = echarts.init(
+            document.getElementById('2c773f7d234c48ff921d2c9729ad83dc'), 'white', {renderer: 'canvas'});
+        var option_2c773f7d234c48ff921d2c9729ad83dc = {
+    "animation": true,
+    "animationThreshold": 2000,
+    "animationDuration": 1000,
+    "animationEasing": "cubicOut",
+    "animationDelay": 0,
+    "animationDurationUpdate": 300,
+    "animationEasingUpdate": "cubicOut",
+    "animationDelayUpdate": 0,
+    "color": [
+        "#c23531",
+        "#2f4554",
+        "#61a0a8",
+        "#d48265",
+        "#749f83",
+        "#ca8622",
+        "#bda29a",
+        "#6e7074",
+        "#546570",
+        "#c4ccd3",
+        "#f05b72",
+        "#ef5b9c",
+        "#f47920",
+        "#905a3d",
+        "#fab27b",
+        "#2a5caa",
+        "#444693",
+        "#726930",
+        "#b2d235",
+        "#6d8346",
+        "#ac6767",
+        "#1d953f",
+        "#6950a1",
+        "#918597"
+    ],
+    "series": [
+        {
+            "type": "map",
+            "name": "\u6b66\u6c49\u5e02\u65b0\u51a0\u80ba\u708e\u60a3\u8005\u6c42\u52a9\u5730\u56fe",
+            "label": {
+                "show": false,
+                "position": "top",
+                "margin": 8
+            },
+            "mapType": "\u6b66\u6c49",
+            "data": [
+                {
+                    "name": "\u9ec4\u9642\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u65b0\u6d32\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u4e1c\u897f\u6e56\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6d2a\u5c71\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6c5f\u590f\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u9752\u5c71\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6b66\u660c\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6c5f\u5cb8\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6c5f\u6c49\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6c49\u9633\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u785a\u53e3\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u8521\u7538\u533a",
+                    "value": 0
+                },
+                {
+                    "name": "\u6c49\u5357\u533a",
+                    "value": 0
+                }
+            ],
+            "roam": true,
+            "zoom": 1,
+            "showLegendSymbol": true,
+            "emphasis": {}
+        }
+    ],
+    "legend": [
+        {
+            "data": [
+                "\u6b66\u6c49\u5e02\u65b0\u51a0\u80ba\u708e\u60a3\u8005\u6c42\u52a9\u5730\u56fe"
+            ],
+            "selected": {
+                "\u6b66\u6c49\u5e02\u65b0\u51a0\u80ba\u708e\u60a3\u8005\u6c42\u52a9\u5730\u56fe": true
+            },
+            "show": false,
+            "padding": 5,
+            "itemGap": 10,
+            "itemWidth": 25,
+            "itemHeight": 14
+        }
+    ],
+    "tooltip": {
+        "show": true,
+        "trigger": "item",
+        "triggerOn": "mousemove|click",
+        "axisPointer": {
+            "type": "line"
+        },
+        "textStyle": {
+            "fontSize": 14
+        },
+        "borderWidth": 0
+    },
+    "title": [
+        {
+            "text": "\u6b66\u6c49\u5e02\u65b0\u51a0\u80ba\u708e\u60a3\u8005\u6c42\u52a9\u5730\u56fe",
+            "subtext": "\u5c0f\u840c\u4e8e2020-03-23\u65e5\u4e2d\u5348\u66f4\u65b0, \u6570\u636e\u6e90\u81ea\u65b0\u6d6a\u5fae\u535a",
+            "padding": 5,
+            "itemGap": 10
+        }
+    ],
+    "visualMap": {
+        "show": true,
+        "type": "piecewise",
+        "min": 0,
+        "max": 100,
+        "inRange": {
+            "color": [
+                "#50a3ba",
+                "#eac763",
+                "#d94e5d"
+            ]
+        },
+        "calculable": true,
+        "inverse": false,
+        "splitNumber": 5,
+        "orient": "vertical",
+        "bottom": "5%",
+        "showLabel": true,
+        "itemWidth": 20,
+        "itemHeight": 14,
+        "borderWidth": 0,
+        "pieces": [
+            {
+                "max": 10000,
+                "min": 10,
+                "label": ">10",
+                "color": "#8A0808"
+            },
+            {
+                "max": 9,
+                "min": 7,
+                "label": "7-9",
+                "color": "#B40404"
+            },
+            {
+                "max": 6,
+                "min": 5,
+                "label": "5-6",
+                "color": "#DF0101"
+            },
+            {
+                "max": 4,
+                "min": 3,
+                "label": "3-4",
+                "color": "#F78181"
+            },
+            {
+                "max": 2,
+                "min": 1,
+                "label": "1-2",
+                "color": "#F5A9A9"
+            },
+            {
+                "max": 0,
+                "min": 0,
+                "label": "0",
+                "color": "#F0F0F0"
+            }
+        ]
+    }
+};
+        chart_2c773f7d234c48ff921d2c9729ad83dc.setOption(option_2c773f7d234c48ff921d2c9729ad83dc);
+    </script>
+<script>chart_2c773f7d234c48ff921d2c9729ad83dc.on('click', function (params) {
+        if (params["data"].name == "黄陂区"){
+            document.getElementById("黄陂区").style.display = "";
+            document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "新洲区"){
+            document.getElementById("新洲区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "东西湖区"){
+            document.getElementById("东西湖区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "洪山区"){
+            document.getElementById("洪山区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "江夏区"){
+            document.getElementById("江夏区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "青山区"){
+            document.getElementById("青山区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "武昌区"){
+            document.getElementById("武昌区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "江岸区"){
+            document.getElementById("江岸区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "江汉区"){
+            document.getElementById("江汉区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "汉阳区"){
+            document.getElementById("汉阳区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "硚口区"){
+            document.getElementById("硚口区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "蔡甸区"){
+            document.getElementById("蔡甸区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("汉南区").style.display = "none";
+}
+        if (params["data"].name == "汉南区"){
+            document.getElementById("汉南区").style.display = "";
+            document.getElementById("黄陂区").style.display = "none";
+document.getElementById("新洲区").style.display = "none";
+document.getElementById("东西湖区").style.display = "none";
+document.getElementById("洪山区").style.display = "none";
+document.getElementById("江夏区").style.display = "none";
+document.getElementById("青山区").style.display = "none";
+document.getElementById("武昌区").style.display = "none";
+document.getElementById("江岸区").style.display = "none";
+document.getElementById("江汉区").style.display = "none";
+document.getElementById("汉阳区").style.display = "none";
+document.getElementById("硚口区").style.display = "none";
+document.getElementById("蔡甸区").style.display = "none";
+} });</script>&nbsp;&nbsp;<div id="黄陂区" style="display: none;"></div><div id="新洲区" style="display: none;"></div><div id="东西湖区" style="display: none;"></div><div id="洪山区" style="display: none;"></div><div id="江夏区" style="display: none;"></div><div id="青山区" style="display: none;"></div><div id="武昌区" style="display: none;"></div><div id="江岸区" style="display: none;"></div><div id="江汉区" style="display: none;"></div><div id="汉阳区" style="display: none;"></div><div id="硚口区" style="display: none;"></div><div id="蔡甸区" style="display: none;"></div><div id="汉南区" style="display: none;"></div></div></body>
+</html>
